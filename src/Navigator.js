@@ -6,21 +6,31 @@ import {
   Platform
 } from 'react-native';
 const platformText = {ios: 'iOS', android: 'Android', web: 'Web' }
+import FriendsList from './components/FriendsList'
+const friends = [
+  {
+    id: 1,
+    firstName: 'Jane',
+    lastName: 'Miller',
+    avatarUrl: 'https://placehold.it/100x100',
+  },
+  {
+    id: 2,
+    firstName: 'Kate',
+    lastName: 'Smith',
+    avatarUrl: 'https://placehold.it/100x100',
+  },
+  {
+    id: 3,
+    firstName: 'Kevin',
+    lastName: 'Yang',
+    avatarUrl: 'https://placehold.it/100x100',
+  },
+];
 export default class Navigator extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native For({platformText[Platform.OS]})!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.{Platform.OS}.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload
-        </Text>
-      </View>
-    );
+       return <FriendsList friends={friends} />;
+
   }
 }
 
