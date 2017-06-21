@@ -3,7 +3,7 @@ a demo use reacct-native-web
 
 本demo，使用reacct-native-web和webpack，实现write once run everywhere。
 
-支持安卓、ios、web三端
+## 支持安卓、ios、web三端
 
 
 1、首先,你应该已经装了react-native，
@@ -40,9 +40,17 @@ react-native run-ios
 
 http://localhost:8080/
 
+# end
 
 ok了，三端融合helloworld 就这样开始了。。。。
 
 欢迎各位小伙伴加入React@Native@Web群，
 
-一起交流RN4web哟。QQ群号：605887941
+一起交流RN4web哟。QQ群号：[605887941](https://jq.qq.com/?_wv=1027&k=4Ahz8Nx)
+
+# Related
+1、[react-native-web](https://github.com/necolas/react-native-web)
+
+2、[React Native For Web: A Glimpse Into The Future](https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/)
+
+3、[ReactNativeWeb](https://github.com/damiaozi/ReactNativeWeb/)
